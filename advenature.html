@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ADVENATURE — Adventure Meets Nature (Bukidnon)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style_fixed.css">
+</head>
+<body>
+  <body id="top">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand" aria-label="Advenature logo">
+        <img src="Green yellow minimalist mountain nature logo (1).png" alt="" class="logo">
+        <div>
+          <h1 class="brand-title">Advenature</h1>
+          <p class="brand-sub">Where Adventure Meets Nature — Bukidnon</p>
+        </div>
+      </div>
+
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <ul id="navMenu" class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#adventures">Adventures</a></li>
+          <li><a href="#nature">Nature</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#plan">Plan Visit</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero" style="background-image:url('BACKGROUND.PNG')">
+      <div class="hero-inner container">
+        <div class="hero-text">
+          <h2>Discover Bukidnon's best — on foot, by zipline, and over waterfalls.</h2>
+          <p>Advenature brings together curated adventures, scenic nature spots, and local flavors — all in one easy guide.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#adventures">See Adventures</a>
+            <a class="btn btn-ghost" href="#plan">Plan Your Visit</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-head">Quick Picks</div>
+          <ul>
+            <li>Zipline · Dropzone · Coaster</li>
+            <li>Pine Forests · Waterfalls · Lakes</li>
+            <li>Local Food · Souvenirs · Tours</li>
+          </ul>
+          <a class="btn btn-small" href="#adventures">Browse All</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Adventures -->
+    <section id="adventures" class="panel container">
+      <h3 class="section-title">Adventures</h3>
+      <p class="section-sub">Activities for thrill-seekers, families, and groups.</p>
+
+      <div class="cards">
+        <article class="card">
+          <img src="zipline.png" alt="Zipline" />
+          <div class="card-body">
+            <h4>Zipline — 840m</h4>
+            <p class="price">From ₱500</p>
+            <p class="desc">Fly above pine forests with panoramic views.</p>
+            <a class="btn btn-outline" href="#plan">Book</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="dropzone.png" alt="Dropzone" />
+          <div class="card-body">
+            <h4>Dropzone</h4>
+            <p class="price">Single ₱500 · Tandem ₱750</p>
+            <p class="desc">Adrenaline drop with professional safety checks.</p>
+            <a class="btn btn-outline" href="#plan">Book</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="rope.png" alt="Ropes course" />
+          <div class="card-body">
+            <h4>Ropes Course</h4>
+            <p class="price">Kids ₱150 · Adult ₱300</p>
+            <p class="desc">Team challenges — great for school outings.</p>
+            <a class="btn btn-outline" href="#plan">Book</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="atv.png" alt="ATV" />
+          <div class="card-body">
+            <h4>ATV Trails</h4>
+            <p class="price">From ₱400</p>
+            <p class="desc">Guided trail rides across rolling terrain.</p>
+            <a class="btn btn-outline" href="#plan">Book</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<!-- Nature -->
+<section id="nature" class="panel alt">
+  <div class="container">
+    <h3 class="section-title">Nature</h3>
+    <p class="section-sub">Bukidnon's natural highlights — perfect for photographers and peace-seekers.</p>
+
+    <div class="gallery">
+      <button class="gallery-item" data-img="pineforrest.png" aria-label="Pine forests">
+        <img src="pineforrest.png" alt="Pine Forests">
+        <span>Pine Forests</span>
+      </button>
+
+      <button class="gallery-item" data-img="fall.png" aria-label="Waterfall">
+        <img src="fallS.png" alt="Waterfalls">
+        <span>Waterfalls</span>
+      </button>
+
+      <button class="gallery-item" data-img="lake.png" aria-label="Lake">
+        <img src="lake.png" alt="Lakes">
+        <span>Lakes</span>
+      </button>
+
+      <button class="gallery-item" data-img="sunsets.png" aria-label="Sunset">
+        <img src="sunsets.png" alt="Sunsets">
+        <span>Sunsets</span>
+      </button>
+
+      <button class="gallery-item" data-img="view.png" aria-label="Views">
+        <img src="view.png" alt="Views">
+        <span>Views</span>
+      </button>
+    </div>
+
+    <div class="itineraries">
+      <div class="it-card">
+        <h4>1-Day Adventure</h4>
+        <ol>
+          <li>Morning: Zipline & Ropes</li>
+          <li>Afternoon: Waterfall swim</li>
+          <li>Evening: Local food market</li>
+        </ol>
+      </div>
+
+      <div class="it-card">
+        <h4>Family Nature Day</h4>
+        <ol>
+          <li>Nature walk</li>
+          <li>Picnic at pine forest</li>
+          <li>Souvenir shopping</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Food -->
+    <section id="food" class="panel container">
+      <h3 class="section-title">Food & Dining</h3>
+      <p class="section-sub">Taste local Bukidnon flavors and comfort food.</p>
+
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="anotnio.png" alt="Local Coffee">
+          <div>
+            <h4>Local Coffee</h4>
+            <p>Hot brews made from Bukidnon beans.</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img src="diner.png" alt="Grilled food">
+          <div>
+            <h4>Jessie's Diner</h4>
+            <p>A retro-style gas station featuring classic cars</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img src="pastries.jpg" alt="Pastries">
+          <div>
+            <h4>Cafe Salzburg</h4>
+            <p>Sweet treats and snacks from local bakers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plan Visit -->
+    <section id="plan" class="panel alt container">
+      <h3 class="section-title">Plan Your Visit</h3>
+      <p class="section-sub">Fast checklist & tips before you go.</p>
+      <div class="plan-grid">
+        <div class="plan-card">
+          <h4>What to bring</h4>
+          <ul>
+            <li>Comfortable shoes</li>
+            <li>Water bottle</li>
+            <li>Sunscreen & insect repellent</li>
+            <li>Light jacket (nights are cool)</li>
+          </ul>
+        </div>
+        <div class="plan-card">
+          <h4>Safety tips</h4>
+          <ul>
+            <li>Follow guides' instructions</li>
+            <li>Check weather before booking</li>
+            <li>Book reputable operators</li>
+          </ul>
+        </div>
+        <div class="plan-card">
+          <h4>Sample routes</h4>
+          <p>Short drives connect most attractions; allow a full day for mixed itineraries.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="panel container">
+      <h3 class="section-title">Contact & Bookings</h3>
+      <p class="section-sub">Questions, group rates, or school trips — get in touch.</p>
+
+      <div class="contact-grid">
+        <div>
+          <p><strong>Email:</strong> <a href="mailto:advenature@gmail.com">advenature@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+639000000000">+63 900 000 0000</a></p>
+          <p><strong>Address:</strong> Dahilayan, Manolo Fortich, Bukidnon, Philippines, 8700</p>
+        </div>
+
+        <form id="contactForm" class="contact-form" onsubmit="event.preventDefault(); alert('Form submitted (demo). Replace with server integration)')">
+          <label>
+            Name
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Advenature · Built for Bukidnon · Made with Love</p>
+      <p class="small">I LOVE CODING ESPECIALLY YOU SIR 😘</p>
+    </div>
+  </footer>
+
+  <!-- Simple lightbox -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lbClose" class="lb-close" aria-label="Close">✕</button>
+    <img id="lbImage" src="" alt="">
+  </div>
+
+  <script>
+    // NAV TOGGLE
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!expanded));
+      navMenu.classList.toggle('open');
+    });
+
+    // LIGHTBOX FOR GALLERY
+    document.querySelectorAll('.gallery-item').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        const src = btn.getAttribute('data-img');
+        const lb = document.getElementById('lightbox');
+        const lbImg = document.getElementById('lbImage');
+        lbImg.src = src;
+        lb.style.display = 'flex';
+        lb.setAttribute('aria-hidden','false');
+      });
+    });
+    document.getElementById('lbClose').addEventListener('click', ()=>{
+      const lb = document.getElementById('lightbox');
+      lb.style.display = 'none';
+      lb.setAttribute('aria-hidden','true');
+      document.getElementById('lbImage').src = '';
+    });
+
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', function(e){
+        e.preventDefault();
+        const id = this.getAttribute('href');
+        const el = document.querySelector(id);
+        if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+      });
+    });
+  </script>
+
+<!-- Back to Top Button -->
+<a href="#top" class="back-to-top">^</a>
+
+
+</body>
+</html>
